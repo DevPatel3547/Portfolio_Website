@@ -1,0 +1,289 @@
+body, h2, h3, h4, h5, h6, p, a, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+  
+  h1, p, h2{
+    color:#fff
+  }
+  
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+
+  #header {
+    background-color: #000;
+    padding: 15px 0;
+  }
+  
+  
+
+body, html, ul, li, div, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  position: absolute;
+  top: 30px; 
+  left: 0;
+  right: 600px;
+  z-index: 10; 
+  text-align: center; 
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#navbar ul li {
+  margin: 0 10px;
+}
+
+#navbar ul li a {
+  color: white;
+  transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #007bff;
+}
+
+
+
+#hero {
+  min-height: 100vh;
+  position: relative;
+}
+
+  .theme-switch-wrapper {
+    z-index: 10; 
+}
+
+.theme-switch-wrapper button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent; 
+    color: white; 
+    font-size: 16px; 
+    font-family: 'Poppins', sans-serif; 
+    transition: color 0.3s; 
+}
+
+.theme-switch-wrapper button:hover {
+    color: #007bff; 
+}
+
+
+.theme-switch {
+    margin-left: 10px;
+}
+
+
+
+
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background: url('../images/photo2.jpg');
+  }
+  
+  .hero-title {
+    font-size: 48px;
+  }
+  
+
+#about .container {
+  display: flex;   
+  align-items: center; 
+  flex-direction: row-reverse; 
+  
+}
+
+.about-content {
+  flex: 2.5;       
+  padding: 15px;
+  color: #000;     
+}
+
+.about-photo {
+  flex: 0.5;       
+  padding: 15px;
+  display: flex;   
+  align-items: center; 
+  justify-content: center; 
+}
+
+.about-photo img {
+  max-width: 180%; 
+  height: 520px;    
+  object-fit: cover;
+  display: block;  
+  margin-right: 150px;  
+}
+
+#about h2, 
+#about p, 
+#about a {
+    color: #000; 
+}
+
+
+
+
+  .content-box {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 5px; 
+}
+
+  
+  /* Contact Section */
+  #contact {
+    padding: 100px 0;
+    background-color: #252324;
+    
+  }
+  
+  .contact .section-title h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact .info h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contact .info p, .contact .info a {
+    color: #007bff;
+  }
+  
+  .php-email-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .php-email-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .php-email-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .hero-title {
+    font-size: 60px; 
+    text-align: center; 
+  }
+  
+  .hero-subtitle {
+    font-size: 24px; 
+    text-align: center;
+    color: #fff; 
+  }
+  
+
+  .theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 26px;
+    position: relative;
+    width: 50px;
+}
+
+.theme-switch input {
+    display: none;
+}
+
+.slider {
+    background-color: #f4f4f4;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 18px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 18px;
+}
+
+input:checked + .slider {
+    background-color: #262626;
+}
+
+input:checked + .slider:before {
+    transform: translateX(24px);
+}
+
+.slider.round {
+    border-radius: 35px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #000;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; 
+}
+
+

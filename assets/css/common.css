@@ -1,0 +1,188 @@
+body, h2, h3, h4, h5, h6, p, a, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  background-color: #000;
+  padding: 10px 0;
+}
+
+#navbar {
+  position: absolute;
+  top: 30px; 
+  left: 0;
+  right: 600px;
+  z-index: 10; 
+  text-align: center; 
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+#navbar ul li {
+  margin: 0 10px;
+}
+
+#navbar ul li a {
+  color: white;
+  transition: color 0.3s;
+}
+
+#navbar ul li a:hover {
+  color: #007bff;
+}
+
+
+#hero {
+  padding: 50px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 30px;
+}
+
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  width: 100%; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.card-subtitle {
+  font-size: 0.875rem;
+  margin-top: -0.375rem;
+  margin-bottom: 0.5rem;
+  color: #6c757d;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  color: #212529;
+  word-wrap: break-word; 
+}
+.card {
+  margin-bottom: 20px;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+body {
+  animation: slideInFromLeft 1s ease-out;
+  background-image: url('../images/back1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: slideInFromLeft 1s ease-out;
+}
+.resume-box {
+  display: none;
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 15px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.resume-header h2 {
+  margin: 0;
+  color: #343a40;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #6c757d;
+}
+
+.download-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #000;
+  transform: scale(1.05);
+}
+
+.theme-switch-wrapper {
+z-index: 10; /* Ensure button is above the hero content */
+}
+
+.theme-switch-wrapper button {
+padding: 5px 10px;
+cursor: pointer;
+border: none;
+background-color: transparent; 
+color: white; 
+font-size: 16px; 
+font-family: 'Poppins', sans-serif; 
+transition: color 0.3s; 
+}
+
+.theme-switch-wrapper button:hover {
+color: #007bff; 
+}
+
+
+.theme-switch {
+margin-left: 10px;
+}

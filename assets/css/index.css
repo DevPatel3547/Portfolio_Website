@@ -1,0 +1,193 @@
+
+/* About Section */
+#about {
+  padding: 50px 0; 
+  background-color:transparent;
+}
+.content-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px; 
+}
+
+/* Use the desired font-family and color */
+body, h2, h3, h4, h5, h6, p, a, ul, li, form, input, textarea {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; 
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+  body {
+    background: url('../images/back1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+  
+  h1, p, h2{
+    color:#fff
+  }
+  
+  
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header Styles */
+  #header {
+    background-color: #000;
+    padding: 15px 0;
+  }
+  
+  
+  #navbar {
+    position: absolute;
+    top: 30px; 
+    left: 0;
+    right: 600px;
+    z-index: 10;
+    text-align: center; 
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  }
+  
+  #navbar ul li {
+    margin: 0 10px;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  #navbar ul li a:hover {
+    color: #007bff;
+  }
+  
+  
+  /* Hero Section */
+  #hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+  }
+  
+  /* About Section */
+  #about img {
+    display: none;
+}
+
+
+  
+  /* Contact Section */
+  #contact {
+    padding: 100px 0;
+    background-color: #252324;
+    
+  }
+  
+  .contact .section-title h2 {
+    margin-bottom: 20px;
+  }
+  
+  .contact .info h4 {
+    margin-bottom: 10px;
+  }
+  
+  .contact .info p, .contact .info a {
+    color: #007bff;
+  }
+  
+  .php-email-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .php-email-form button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .php-email-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .hero-title {
+    font-size: 60px;
+    text-align: center; 
+  }
+  
+  .hero-subtitle {
+    font-size: 24px; 
+    text-align: center;
+    color: #fff; 
+  }
+  
+
+
+  .theme-switch-wrapper {
+    z-index: 10; 
+}
+
+.theme-switch-wrapper button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent; 
+    color: white; 
+    font-size: 16px; 
+    font-family: 'Poppins', sans-serif; 
+    transition: color 0.3s; 
+}
+
+.theme-switch-wrapper button:hover {
+    color: #007bff; 
+}
+
+
+.theme-switch {
+    margin-left: 10px;
+}
+
+
+footer {
+  padding: 20px 0;
+  background-color: #333;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #007bff; 
+}
